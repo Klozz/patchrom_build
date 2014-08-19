@@ -43,6 +43,7 @@ private-miui-apps := AntiSpam  \
                      MiuiVideo \
                      NetworkAssistant2 \
                      Notes  \
+                     O2O  \
                      PackageInstaller  \
                      PaymentService \
                      Provision \
@@ -54,11 +55,13 @@ private-miui-apps := AntiSpam  \
                      Weather \
                      WeatherProvider \
                      XiaomiServiceFramework \
-                     VoiceAssist
+                     VoiceAssist \
+                     TrafficControl
 
 private-preinstall-apps := ota-miui-MiShop \
                      ota-partner-XunfeiSpeechService3 \
-                     ota-partner-NetworkAssistant
+                     ota-partner-NetworkAssistant \
+                     ota-MiuiForum
 
 
 private-miui-jars := services \
